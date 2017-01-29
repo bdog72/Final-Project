@@ -14,7 +14,7 @@ const = 'thumbPics' = (
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg' width='200' height='200'>
-              <h3>Burgers and Sandwiches</h3>
+              <h3>Burgers and Stuff</h3>
               <Button bsStyle='primary'>Clicke Here</Button>
             </Thumbnail>
           </Col>
