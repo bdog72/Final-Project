@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap'
+import { Grid, Row, Col, Thumbnail, Button } from 'react-bootstrap'
 export default class Thumbnails extends Component {
   render () {
     return <div>
+const = 'thumbPics' = (
       <Grid>
         <Row>
           <Col xs={6} md={3}>
-            <Thumbnail src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200' />
+            <Thumbnail src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200'>
+              <h3>Seafood</h3>
+              <Button bsStyle='primary'>Click Here</Button>
+            </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg' width='200' height='200' />
@@ -19,7 +23,7 @@ export default class Thumbnails extends Component {
           </Col>
         </Row>
       </Grid>
-);
+    )
     </div>
   }
 }
