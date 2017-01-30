@@ -9,7 +9,9 @@ const = 'thumbPics' = (
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200'>
               <h3>Seafood</h3>
-              <Button bsStyle='primary'>Click Here</Button>
+              <LinkContainer to={ pathname: './Seafood' }>
+                <Button bsStyle='primary'>Click Here</Button>
+              </LinkContainer>
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
