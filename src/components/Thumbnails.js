@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col, Thumbnail, Button, Glyphicon } from 'react-bootstrap'
 // import { LinkContainer } from 'react-router-bootstrap'
+// import Seafood from './Seafood'
 export default class Thumbnails extends Component {
   render () {
     return <div>
@@ -11,7 +12,7 @@ export default class Thumbnails extends Component {
             <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200'>
               <h3>Seafood</h3>
               {/* <LinkContainer to={ pathname: './Seafood' }> */}
-              <Button bsStyle='primary' href='{Seafood}'>Click Here</Button>
+              <Button bsStyle='primary'>Click Here</Button>
               {/* </LinkContainer> */}
             </Thumbnail>
           </Col>
