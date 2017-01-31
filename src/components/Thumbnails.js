@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col, Thumbnail, Button } from 'react-bootstrap'
+import { Grid, Row, Col, Thumbnail, Button, Glyphicon } from 'react-bootstrap'
+// import { LinkContainer } from 'react-router-bootstrap'
 export default class Thumbnails extends Component {
   render () {
     return <div>
-const = 'thumbPics' = (
+      const = 'thumbPics' = (
       <Grid>
         <Row>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200'>
               <h3>Seafood</h3>
-              <LinkContainer to={ pathname: './Seafood' }>
-                <Button bsStyle='primary'>Click Here</Button>
-              </LinkContainer>
+              {/* <LinkContainer to={ pathname: './Seafood' }> */}
+              <Button bsStyle='primary' href='{Seafood}'>Click Here</Button>
+              {/* </LinkContainer> */}
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
@@ -30,6 +31,8 @@ const = 'thumbPics' = (
             <Thumbnail className='thumbpics1' src='http://www.cicis.com/media/1138/pizza_trad_pepperoni.png' width='200' height='200'>
               <h3>Pizza</h3>
               <Button bsStyle='primary'>Click Here</Button>
+              <Button><Glyphicon glyph='flag' /></Button>
+              <Button><Glyphicon glyph='print' /></Button>
             </Thumbnail>
           </Col>
         </Row>
