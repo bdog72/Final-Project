@@ -5,7 +5,7 @@ export default class Main extends Component {
   render () {
     return <div>
       <PageHeader className='head'><p>Rest-au-rant</p></PageHeader>
-      <Navbar className='nav' />
+      {/* <Navbar className='nav' /> */}
       <Thumbnails />
     </div>
   }
