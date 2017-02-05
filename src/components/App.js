@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Main from './Main'
+import Layout from './Layout'
 class App extends Component {
 
   render () {
     return <div>
-      <Main />
+      <Layout />
     </div>
   }
 }
