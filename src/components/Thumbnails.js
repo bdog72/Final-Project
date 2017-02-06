@@ -14,8 +14,6 @@ export default class Thumbnails extends Component {
               <Button>
                 <Menu.Item as={Link} to='/Seafood'>Click Here</Menu.Item>
               </Button>
-              {/* <Button as={Link} to='/Seafood'>Click Here</Button> */}
-              {/* <Button bsStyle='primary'>Click Here</Button> */}
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
