@@ -38,6 +38,9 @@ export default class Thumbnails extends Component {
               <Button>
                 <Menu.Item as={Link} to='/Pizza'>Click Here</Menu.Item>
               </Button>
+              <Button>
+                <Menu.Item as={Link} to='/Practice'>Practice</Menu.Item>
+              </Button>
             </Thumbnail>
           </Col>
         </Row>
