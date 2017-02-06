@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col, Thumbnail, Button, Glyphicon } from 'react-bootstrap'
-// import { LinkContainer } from 'react-router-bootstrap'
-// import Seafood from './Seafood'
 export default class Thumbnails extends Component {
   render () {
     return <div>
