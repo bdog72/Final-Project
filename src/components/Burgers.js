@@ -7,6 +7,7 @@ export default class Burgers extends Component {
       <main className='mainB'>
         <Jumbotron className='jumbo1' />
       </main>
+
     </div>
   }
 }
