@@ -19,7 +19,6 @@ export default class App extends Component {
         <Route path='/Wings' component={Wings} />
         <Route path='/Pizza' component={Pizza} />
         <Route path='/Practice' component={Practice} />
-
       </Route>
     </Router>
   }
