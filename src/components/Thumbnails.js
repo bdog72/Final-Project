@@ -9,7 +9,7 @@ export default class Thumbnails extends Component {
       <Grid>
         <Row>
           <Col xs={6} md={3}>
-            <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png' width='200' height='200'>
+            <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png'>
               <h3 className='foodChoices'>Seafood</h3>
               <Button>
                 <Menu.Item as={Link} to='/Seafood'>Click Here</Menu.Item>
@@ -17,7 +17,7 @@ export default class Thumbnails extends Component {
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
-            <Thumbnail className='thumbpics1' src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg' width='200' height='200'>
+            <Thumbnail className='thumbpics1' src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg'>
               <h3 className='foodChoices'>Burgers and Stuff</h3>
               <Button>
                 <Menu.Item as={Link} to='/Burgers'>Click Here</Menu.Item>
@@ -25,7 +25,7 @@ export default class Thumbnails extends Component {
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
-            <Thumbnail className='thumbpics1' src='http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/12/20/0/FNM_010113-Chinese-Barbecue-Wings-Recipe_s4x3.jpg.rend.sniipadlarge.jpeg' width='200' height='200'>
+            <Thumbnail className='thumbpics1' src='http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/12/20/0/FNM_010113-Chinese-Barbecue-Wings-Recipe_s4x3.jpg.rend.sniipadlarge.jpeg'>
               <h3 className='foodChoices'>Wings and BBQ</h3>
               <Button>
                 <Menu.Item as={Link} to='/Wings'>Click Here</Menu.Item>
@@ -33,7 +33,7 @@ export default class Thumbnails extends Component {
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
-            <Thumbnail className='thumbpics1' src='http://www.cicis.com/media/1138/pizza_trad_pepperoni.png' width='200' height='200'>
+            <Thumbnail className='thumbpics1' src='http://www.cicis.com/media/1138/pizza_trad_pepperoni.png'>
               <h3 className='foodChoices'>Pizza</h3>
               <Button>
                 <Menu.Item as={Link} to='/Pizza'>Click Here</Menu.Item>

@@ -3,7 +3,7 @@ import {PageHeader} from 'react-bootstrap'
 import Thumbnails from './Thumbnails'
 import {Button, Menu} from 'semantic-ui-react'
 import {Link} from 'react-router'
-
+// import Toggle from './ToggleButton'
 export default class Layout extends Component {
   static propTypes = {
     children: React.PropTypes.element.isRequired
@@ -17,6 +17,7 @@ export default class Layout extends Component {
         </Button>
       </PageHeader>
       <Thumbnails />
+      {/* <Toggle /> */}
       <main>
         {this.props.children}
       </main>

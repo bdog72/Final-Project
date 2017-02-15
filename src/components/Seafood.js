@@ -5,9 +5,8 @@ export default class Seafood extends Component {
   render () {
     return <div>
       <h1 className='heads1'>Seafood</h1>
-      <main className='mainB'>
-        {/* <Jumbotron className='jumbo1' /> */}
-        <ListGroup className='seaFoodList'>
+      <main>
+        <ListGroup>
           <ListGroupItem header='Casual Clam' href='http://www.casualclam.com/' />
         </ListGroup>
       </main>
