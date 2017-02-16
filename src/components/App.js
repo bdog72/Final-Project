@@ -7,6 +7,7 @@ import Seafood from './Seafood'
 import Burgers from './Burgers'
 import Wings from './Wings'
 import Pizza from './Pizza'
+import EverythingElse from './EverythingElse'
 export default class App extends Component {
 
   render () {
@@ -17,6 +18,7 @@ export default class App extends Component {
         <Route path='/Burgers' component={Burgers} />
         <Route path='/Wings' component={Wings} />
         <Route path='/Pizza' component={Pizza} />
+        <Route path='/EverythingElse' component={EverythingElse} />
       </Route>
     </Router>
   }

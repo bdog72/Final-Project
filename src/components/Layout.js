@@ -11,7 +11,7 @@ export default class Layout extends Component {
     return <div>
       <PageHeader className='head'>
         <p>Rest-au-rant</p>
-        <Button floated='left' size='huge'>
+        <Button color='green' size='huge'>
           <Menu.Item as={Link} to='/'>Home</Menu.Item>
         </Button>
       </PageHeader>

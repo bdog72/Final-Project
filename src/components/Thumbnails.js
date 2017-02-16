@@ -18,7 +18,7 @@ export default class Thumbnails extends Component {
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg'>
-              <h3 className='foodChoices'>Burgers and Stuff</h3>
+              <h3 className='foodChoices'>Burgers and Sand-wiches</h3>
               <Button>
                 <Menu.Item as={Link} to='/Burgers'>Click Here</Menu.Item>
               </Button>
@@ -33,10 +33,18 @@ export default class Thumbnails extends Component {
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
-            <Thumbnail className='thumbpics1' src='http://www.cicis.com/media/1138/pizza_trad_pepperoni.png'>
+            <Thumbnail className='thumbpics1' src='http://sirpizza-mi.com/wp-content/uploads/2014/07/Sir-Pizza-Pan-Pizza-1920x12001.jpg'>
               <h3 className='foodChoices'>Pizza</h3>
               <Button>
                 <Menu.Item as={Link} to='/Pizza'>Click Here</Menu.Item>
+              </Button>
+            </Thumbnail>
+          </Col>
+          <Col xs={6} md={3}>
+            <Thumbnail className='thumbpics1'>
+              <h4 className='foodChoices'>Everything Else</h4>
+              <Button>
+                <Menu.Item as={Link} to='/EverythingElse'>Click Here</Menu.Item>
               </Button>
             </Thumbnail>
           </Col>
