@@ -10,33 +10,33 @@ export default class Thumbnails extends Component {
         <Row>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png'>
-              <h3 className='foodChoices'>Seafood</h3>
+              {/* <h3 className='foodChoices'>Seafood</h3> */}
               <Button>
-                <Menu.Item as={Link} to='/Seafood'>Click Here</Menu.Item>
+                <Menu.Item as={Link} to='/Seafood'>Seafood</Menu.Item>
               </Button>
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://www.addictedtogrilling.com/sites/default/files/burger_works_386x311.jpg'>
-              <h3 className='foodChoices'>Burgers and Sand-wiches</h3>
+              {/* <h3 className='foodChoices'>Burgers and Sand-wiches</h3> */}
               <Button>
-                <Menu.Item as={Link} to='/Burgers'>Click Here</Menu.Item>
+                <Menu.Item as={Link} to='/Burgers'>Burgers and Sandwiches</Menu.Item>
               </Button>
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/12/20/0/FNM_010113-Chinese-Barbecue-Wings-Recipe_s4x3.jpg.rend.sniipadlarge.jpeg'>
-              <h3 className='foodChoices'>Wings and BBQ</h3>
+              {/* <h3 className='foodChoices'>Wings and BBQ</h3> */}
               <Button>
-                <Menu.Item as={Link} to='/Wings'>Click Here</Menu.Item>
+                <Menu.Item as={Link} to='/Wings'>Wings and BBQ</Menu.Item>
               </Button>
             </Thumbnail>
           </Col>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://sirpizza-mi.com/wp-content/uploads/2014/07/Sir-Pizza-Pan-Pizza-1920x12001.jpg'>
-              <h3 className='foodChoices'>Pizza</h3>
+              {/* <h3 className='foodChoices'>Pizza</h3> */}
               <Button>
-                <Menu.Item as={Link} to='/Pizza'>Click Here</Menu.Item>
+                <Menu.Item as={Link} to='/Pizza'>Pizza</Menu.Item>
               </Button>
             </Thumbnail>
           </Col>
