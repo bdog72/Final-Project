@@ -10,6 +10,7 @@ export default class EverythingElse extends Component {
           <ListGroupItem header='Pollo Tropical' href='http://pollotropical.com/home-page' />
           <ListGroupItem header='Glory Days' href='https://www.glorydaysgrill.com' />
           <ListGroupItem header='Cheddars' href='http://cheddars.com' />
+          <ListGroupItem header='Pei Wei' href='https://www.peiwei.com' />
         </ListGroup>
       </main>
     </div>
