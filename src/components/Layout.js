@@ -10,9 +10,9 @@ export default class Layout extends Component {
   render () {
     return <div>
       <PageHeader className='head'>
-        <p>Rest-au-rant</p>
+        {/* <p>Rest-au-rant</p> */}
         <Button size='huge'>
-          <Menu.Item as={Link} to='/'>Home</Menu.Item>
+          <Menu.Item as={Link} to='/'><p>Rest-au-rant</p></Menu.Item>
         </Button>
       </PageHeader>
       <Thumbnails />
