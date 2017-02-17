@@ -9,7 +9,7 @@ export default class Seafood extends Component {
         <ListGroup className='lists'>
           <ListGroupItem header='Casual Clam' href='http://www.casualclam.com' />
         </ListGroup>
-        <Row>
+        {/* <Row>
           <Col s={6}>
             <Button waves='light'>Add<Icon right>add</Icon></Button>
           </Col>
@@ -22,7 +22,7 @@ export default class Seafood extends Component {
             <tr className='menu1'>
               <td href='http://www.casualclam.com'>Casual Clam</td>
               <td>Eclair</td>
-              {/* <td>$0.87</td> */}
+              <td>$0.87</td>
             </tr>
             <tr>
               <td>Alan</td>
@@ -36,7 +36,7 @@ export default class Seafood extends Component {
             </tr>
           </tbody>
         </Table>
-        {/* <Col m={6} s={12}>
+        <Col m={6} s={12}>
           <Card className='blue-grey darken-1' textClassName='white-text' title='Card title' actions={[<a href='#'>This is a link</a>]}>
     I am a very simple card.
     </Card>
