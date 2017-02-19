@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ListGroup, ListGroupItem, Table } from 'react-bootstrap'
+import { ListGroup, ListGroupItem } from 'react-bootstrap'
 // import { Embed } from 'semantic-ui-react'
 export default class EverythingElse extends Component {
 
