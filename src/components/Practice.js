@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table'
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 export default class Practice extends Component {
   render () {
     var products = [{
@@ -28,7 +28,7 @@ export default class Practice extends Component {
         <TableHeaderColumn dataField='price'>Product Price</TableHeaderColumn>
       </BootstrapTable> */}
       {/* <Button /> */}
-      <Button bsStyle='primary'>Primary</Button>
+      {/* <Button bsStyle='primary'>Primary</Button> */}
     </div>
   }
 }
