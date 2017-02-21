@@ -47,11 +47,11 @@ export default class Thumbnails extends Component {
               {/* </Button> */}
             </Thumbnail>
           </Col>
-          <Col xs={6} md={3}>
+          {/* <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1'>
               <Menu.Item className='menu1'as={Link} to='/Practice'>Practice</Menu.Item>
             </Thumbnail>
-          </Col>
+          </Col> */}
         </Row>
       </Grid>
     </div>
