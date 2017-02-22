@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { ListGroup, ListGroupItem } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
+
 // import { Button, Row, Col, Icon, Table } from 'react-materialize'
 export default class Seafood extends Component {
   render () {
@@ -7,7 +9,9 @@ export default class Seafood extends Component {
       <h1 className='heads1'>Seafood</h1>
       <main>
         <ListGroup bsClass='lists'>
-          <ListGroupItem header='Casual Clam' href='http://www.casualclam.com' />
+          <LinkContainer to='/restaurant/casual-clam'>
+            <ListGroupItem header='Casual Clam' />
+          </LinkContainer>
           <ListGroupItem header='BoneFish Grill' href='https://www.bonefishgrill.com/' />
         </ListGroup>
         {/* <Row>

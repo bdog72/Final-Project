@@ -49,3 +49,22 @@ h1 {
 // .well {
 //   color: red;
 // }
+
+.restaurant {
+  color: white;
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .info {
+    text-align: center;
+    margin: 1em auto;
+    max-width: 640px;
+
+    img {
+      margin: auto;
+    }
+  }
+}

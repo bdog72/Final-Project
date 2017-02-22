@@ -8,6 +8,8 @@ import Burgers from './Burgers'
 import Wings from './Wings'
 import Pizza from './Pizza'
 import EverythingElse from './EverythingElse'
+import Restaurant from './Restaurant'
+
 // import Practice from './Practice'
 export default class App extends Component {
 
@@ -20,6 +22,7 @@ export default class App extends Component {
         <Route path='/Wings' component={Wings} />
         <Route path='/Pizza' component={Pizza} />
         <Route path='/EverythingElse' component={EverythingElse} />
+        <Route path='/restaurant/:slug' component={Restaurant} />
         {/* <Route path='/Practice' component={Practice} /> */}
       </Route>
     </Router>

@@ -15,7 +15,6 @@ export default class Layout extends Component {
         <Menu.Item className='menu1'as={Link} to='/'><p>Rest-au-rant</p></Menu.Item>
         {/* </Button> */}
       </PageHeader>
-      <Thumbnails />
       <main>
         {this.props.children}
       </main>

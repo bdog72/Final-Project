@@ -1,0 +1,17 @@
+{
+  "burger-monger": {
+    "name": "Burger Monger",
+    "mapPlaceId": "ChIJXYDQm3rhwogRqfXTLg-UfjM",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "websiteURL": "http://www.burgermonger.com",
+    "rating": "4"
+  },
+  "casual-clam": {
+    "name": "Casual Clam",
+    "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo",
+    "description": "Delicious Seafood.",
+    "websiteURL": "http://www.casualclam.com/",
+    "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg",
+    "rating": "5"
+  }
+}
