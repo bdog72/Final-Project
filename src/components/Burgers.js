@@ -7,7 +7,7 @@ export default class Burgers extends Component {
       <h1 className='heads1'>Burgers</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <Button bsStyle='primary' bsSize='large' href='http://www.burgermonger.com' block>Burger Monger</Button>
+          <Button bsSize='large' href='http://www.burgermonger.com' block>Burger Monger</Button>
         </div>
       </main>
     </div>
