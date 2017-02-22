@@ -8,6 +8,7 @@ export default class Seafood extends Component {
       <main>
         <ListGroup className='lists'>
           <ListGroupItem header='Casual Clam' href='http://www.casualclam.com' />
+          <ListGroupItem header='BoneFish Grill' href='https://www.bonefishgrill.com/' />
         </ListGroup>
         {/* <Row>
           <Col s={6}>

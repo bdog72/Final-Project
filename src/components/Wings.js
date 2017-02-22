@@ -8,6 +8,7 @@ export default class Wings extends Component {
       <main>
         <ListGroup>
           <ListGroupItem header='Luckie Bs' href='http://luckiebs.com' />
+          <ListGroupItem header='Ale House' href='https://millersalehouse.com/locations/st-pete/' />
         </ListGroup>
       </main>
     </div>
