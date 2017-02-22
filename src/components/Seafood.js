@@ -6,8 +6,8 @@ export default class Seafood extends Component {
     return <div>
       <h1 className='heads1'>Seafood</h1>
       <main>
-        <ListGroup>
-          <ListGroupItem className='lists' header='Casual Clam' href='http://www.casualclam.com' />
+        <ListGroup bsClass='lists'>
+          <ListGroupItem header='Casual Clam' href='http://www.casualclam.com' />
           <ListGroupItem header='BoneFish Grill' href='https://www.bonefishgrill.com/' />
         </ListGroup>
         {/* <Row>

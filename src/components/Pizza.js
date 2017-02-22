@@ -6,7 +6,7 @@ export default class Pizza extends Component {
     return <div>
       <h1 className='heads1'>Pizza</h1>
       <main>
-        <ListGroup>
+        <ListGroup bsClass='lists'>
           <ListGroupItem header='Little Italy' href='https://tobysoriginallittleitalypizza.com/' />
           <ListGroupItem header='Italia Mia' href='http://laitaliamia.com/' />
           <ListGroupItem header='Paisanos' href='http://paisanospnp.com/' />

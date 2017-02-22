@@ -5,7 +5,7 @@ export default class Burgers extends Component {
     return <div>
       <h1 className='heads1'>Burgers</h1>
       <main>
-        <ListGroup>
+        <ListGroup bsClass='lists'>
           <ListGroupItem header='Burger Monger' href='http://www.burgermonger.com/' />
         </ListGroup>
       </main>

@@ -6,7 +6,7 @@ export default class Wings extends Component {
     return <div>
       <h1 className='heads1'>Wings and BBQ</h1>
       <main>
-        <ListGroup>
+        <ListGroup bsClass='lists'>
           <ListGroupItem header='Luckie Bs' href='http://luckiebs.com' />
           <ListGroupItem header='Ale House' href='https://millersalehouse.com/locations/st-pete/' />
         </ListGroup>
