@@ -13,5 +13,12 @@
     "websiteURL": "http://www.casualclam.com/",
     "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg",
     "rating": "5"
+  },
+  "bonefish-grill": {
+    "name": "BoneFish Grill",
+    "mapPlaceId": "ChIJ3_Peda3mwogRmjGC1QLSpls",
+    "description": "Contemporary grill chain offering a seafood-centric menu, plus steaks & cocktails.",
+    "websiteURL": "https://www.bonefishgrill.com/",
+    "rating": "5"
   }
 }

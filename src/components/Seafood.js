@@ -11,7 +11,9 @@ export default class Seafood extends Component {
           <LinkContainer to='/restaurant/casual-clam'>
             <ListGroupItem header='Casual Clam' />
           </LinkContainer>
-          <ListGroupItem header='BoneFish Grill' href='https://www.bonefishgrill.com/' />
+          <LinkContainer to='/restaurant/bonefish-grill'>
+            <ListGroupItem header='BoneFish Grill' />
+          </LinkContainer>
         </ListGroup>
       </main>
     </div>
