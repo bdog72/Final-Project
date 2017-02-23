@@ -10,10 +10,7 @@ export default class Layout extends Component {
   render () {
     return <div>
       <PageHeader className='head'>
-        {/* <p>Rest-au-rant</p> */}
-        {/* <Button size='huge'> */}
         <Menu.Item className='menu1'as={Link} to='/'><p>Rest-au-rant</p></Menu.Item>
-        {/* </Button> */}
       </PageHeader>
       <main>
         {this.props.children}
