@@ -2,23 +2,22 @@
   "burger-monger": {
     "name": "Burger Monger",
     "mapPlaceId": "ChIJXYDQm3rhwogRqfXTLg-UfjM",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Local counter-serve chain featuring burgers, fries & malts, plus beer & wine, in a casual space.",
     "websiteURL": "http://www.burgermonger.com",
-    "rating": "4"
+    "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/R9HhGPqz19SiyEFroxKChQ/o.jpg"
   },
   "casual-clam": {
     "name": "Casual Clam",
     "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo",
-    "description": "Delicious Seafood.",
+    "description": "Low-key seafood joint offering classic fish 'n' chips & lobster rolls, plus pastas & plate dinners.",
     "websiteURL": "http://www.casualclam.com/",
-    "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg",
-    "rating": "5"
+    "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg"
   },
   "bonefish-grill": {
     "name": "BoneFish Grill",
     "mapPlaceId": "ChIJ3_Peda3mwogRmjGC1QLSpls",
     "description": "Contemporary grill chain offering a seafood-centric menu, plus steaks & cocktails.",
     "websiteURL": "https://www.bonefishgrill.com/",
-    "rating": "5"
+    "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/v0ZpGHvLElho0-dwjxojag/o.jpg"
   }
 }

@@ -11,8 +11,7 @@ export default class Restaurant extends Component {
     mapPlaceId: 'ChIJQao6aWPmwogR_4vUvANAzAQ',
     description: '',
     websiteURL: '',
-    imageURL: '',
-    rating: '0'
+    imageURL: ''
   }
 
   static propTypes = {
@@ -26,7 +25,7 @@ export default class Restaurant extends Component {
   render () {
     return <div className='restaurant'>
       <h1>{this.state.name}</h1>
-      <h2>Rating: {this.state.rating}/5</h2>
+      {/* <h2>Rating: {this.state.rating}/5</h2> */}
       <p className='info'>
         {this.state.description}
       </p>
