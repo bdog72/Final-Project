@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import {PageHeader} from 'react-bootstrap'
-import Thumbnails from './Thumbnails'
 import {Menu} from 'semantic-ui-react'
 import {Link} from 'react-router'
 export default class Layout extends Component {

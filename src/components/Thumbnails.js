@@ -9,7 +9,6 @@ export default class Thumbnails extends Component {
         <Row>
           <Col xs={6} md={3}>
             <Thumbnail className='thumbpics1' src='http://mississippiseafoodtrail.com/img/dinner-plate.png'>
-
               <Menu.Item className='menu1'as={Link} to='/Seafood'>Seafood</Menu.Item>
             </Thumbnail>
           </Col>
