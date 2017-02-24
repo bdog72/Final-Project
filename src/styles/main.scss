@@ -51,9 +51,15 @@ h1 {
     text-align: center;
     margin: 1em auto;
     max-width: 640px;
+    color: white;
 
     img {
       margin: auto;
+    }
+
+    a {
+      color: white;
+      font-size: 25px;
     }
   }
 }
