@@ -1,49 +1,73 @@
-
+//
+// .head {
+//   background-color: #b3ab99;
+//   margin-right: 50px;
+//   margin-left: 50px;
+//   text-align: center;
+//   padding-top: 5px;
+//
+//   p {
+//     font-size: 50px;
+//   }
+// }
+//
+// .nav {
+//   margin-right: 50px;
+//   margin-left: 50px;
+// }
+//
+// h1 {
+//   color: white;
+// }
+//
+// .heads1 {
+//   text-align: center;
+// }
+//
+// .home1 {
+//   text-align: center;
+//   color: white;
+//   font-size: 50px;
+// }
+//
+// .lists {
+//   margin-bottom: 130px;
+//   text-align: center;
+// }
+//
+// .bs1 {
+//   background-color: white;
+// }
+//
 .head {
-  background-color: #b3ab99;
-  margin-right: 50px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 5px;
+  background-color: #46595f;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
 
-  p {
+  h1 {
+    text-align: center;
+    padding-top: 5px;
     font-size: 50px;
+    color: white;
   }
-}
-
-.nav {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-h1 {
-  color: white;
-}
-
-.heads1 {
-  text-align: center;
 }
 
 .home1 {
   text-align: center;
-  color: white;
   font-size: 50px;
 }
 
-.lists {
-  margin-bottom: 130px;
+.heads1 {
   text-align: center;
-}
-
-.bs1 {
-  background-color: white;
+  font-size: 40px;
 }
 
 .restaurant {
-  color: white;
+  font-family: 'Didact-Gothic';
+  font-size: 2em;
 
-  h1,
-  h2 {
+  h1, {
     text-align: center;
   }
 
@@ -51,7 +75,6 @@ h1 {
     text-align: center;
     margin: 1em auto;
     max-width: 640px;
-    color: white;
 
     img {
       margin: auto;
@@ -59,7 +82,12 @@ h1 {
 
     a {
       color: white;
-      font-size: 25px;
+      font-size: 45px;
     }
   }
+}
+
+.google-maps {
+  max-width: 800px;
+  margin: auto;
 }

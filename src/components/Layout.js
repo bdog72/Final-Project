@@ -1,16 +1,18 @@
 import React, {Component} from 'react'
-import {PageHeader} from 'react-bootstrap'
-import {Menu} from 'semantic-ui-react'
-import {Link} from 'react-router'
+import { PageHeader } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
+
 export default class Layout extends Component {
   static propTypes = {
     children: React.PropTypes.element.isRequired
   }
   render () {
     return <div>
-      <PageHeader className='head'>
-        <Menu.Item className='menu1'as={Link} to='/'><p>Rest-au-rant</p></Menu.Item>
-      </PageHeader>
+      <LinkContainer to='/'>
+        <PageHeader className='head'>
+          <h1>Food-Dot-Com</h1>
+        </PageHeader>
+      </LinkContainer>
       <main>
         {this.props.children}
       </main>
