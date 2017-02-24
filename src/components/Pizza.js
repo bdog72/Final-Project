@@ -1,17 +1,28 @@
 import React, { Component } from 'react'
-import { ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 export default class Pizza extends Component {
   render () {
+    const wellStyles = {maxWidth: 400, margin: '0 auto 10px'}
+
     return <div>
       <h1 className='heads1'>Pizza</h1>
       <main>
-        <ListGroup bsClass='lists'>
-          <ListGroupItem header='Little Italy' href='https://tobysoriginallittleitalypizza.com/' />
-          <ListGroupItem header='Italia Mia' href='http://laitaliamia.com/' />
-          <ListGroupItem header='Paisanos' href='http://paisanospnp.com/' />
-          <ListGroupItem header='28 Grams Pizza' href='http://www.28gramspizza.com/' />
-        </ListGroup>
+        <div className='well' style={wellStyles}>
+          <LinkContainer to='/restaurant/little-italy'>
+            <Button bsSize='large' block>Little Italy</Button>
+          </LinkContainer>
+          <LinkContainer to='/restaurant/italia-mia'>
+            <Button bsSize='large' block>Italia Mia</Button>
+          </LinkContainer>
+          <LinkContainer to='/restaurant/paisanos'>
+            <Button bsSize='large' block>Paisanos</Button>
+          </LinkContainer>
+          <LinkContainer to='/restaurant/28-grams'>
+            <Button bsSize='large' block>28 Grams</Button>
+          </LinkContainer>
+        </div>
       </main>
     </div>
   }

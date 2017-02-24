@@ -1,20 +1,22 @@
 import React, { Component } from 'react'
-import { ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 export default class Seafood extends Component {
   render () {
+    const wellStyles = {maxWidth: 400, margin: '0 auto 10px'}
+
     return <div>
       <h1 className='heads1'>Seafood</h1>
       <main>
-        <ListGroup bsClass='lists'>
+        <div className='well' style={wellStyles}>
           <LinkContainer to='/restaurant/casual-clam'>
-            <ListGroupItem header='Casual Clam' />
+            <Button bsSize='large' block>Casual Clam</Button>
           </LinkContainer>
           <LinkContainer to='/restaurant/bonefish-grill'>
-            <ListGroupItem header='BoneFish Grill' />
+            <Button bsSize='large' block>BoneFish Grill</Button>
           </LinkContainer>
-        </ListGroup>
+        </div>
       </main>
     </div>
   }

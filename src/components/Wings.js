@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
-import { ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 export default class Wings extends Component {
+
   render () {
+    const wellStyles = {maxWidth: 400, margin: '0 auto 10px'}
     return <div>
       <h1 className='heads1'>Wings and BBQ</h1>
       <main>
-        <ListGroup bsClass='lists'>
-          <ListGroupItem header='Luckie Bs' href='http://luckiebs.com' />
-          <ListGroupItem header='Ale House' href='https://millersalehouse.com/locations/st-pete/' />
-        </ListGroup>
+        <div className='well' style={wellStyles}>
+          <LinkContainer to='/restaurant/luckie-bs'>
+            <Button bsSize='large' block>Luckie B's</Button>
+          </LinkContainer>
+        </div>
       </main>
     </div>
   }
