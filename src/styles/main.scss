@@ -1,44 +1,4 @@
-//
-// .head {
-//   background-color: #b3ab99;
-//   margin-right: 50px;
-//   margin-left: 50px;
-//   text-align: center;
-//   padding-top: 5px;
-//
-//   p {
-//     font-size: 50px;
-//   }
-// }
-//
-// .nav {
-//   margin-right: 50px;
-//   margin-left: 50px;
-// }
-//
-// h1 {
-//   color: white;
-// }
-//
-// .heads1 {
-//   text-align: center;
-// }
-//
-// .home1 {
-//   text-align: center;
-//   color: white;
-//   font-size: 50px;
-// }
-//
-// .lists {
-//   margin-bottom: 130px;
-//   text-align: center;
-// }
-//
-// .bs1 {
-//   background-color: white;
-// }
-//
+
 .head {
   background-color: #403e34;
   max-width: 800px;
@@ -51,6 +11,18 @@
     font-size: 50px;
     color: white;
   }
+}
+
+.thumbpics1 {
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.jumbo {
+  max-width: 800px;
+  margin: auto;
+  max-height: 500px;
 }
 
 .home1 {
