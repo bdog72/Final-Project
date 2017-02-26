@@ -19,11 +19,11 @@
   font-size: 20px;
 }
 
-.jumbo {
-  max-width: 800px;
-  margin: auto;
-  max-height: 500px;
-}
+// .jumbo {
+//   max-width: 800px;
+//   margin: auto;
+//   max-height: 500px;
+// }
 
 .home1 {
   text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .carousel {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .carousel img {
@@ -53,6 +53,11 @@
 .everyE {
   text-align: center;
   margin: auto;
+
+  .everyE p {
+    padding: 10px;
+    font-size: 125px;
+  }
 }
 
 .restaurant {
