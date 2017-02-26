@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Button } from 'react-bootstrap'
+import { Grid, Col, Row, Button } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 export default class Burgers extends Component {
@@ -13,6 +13,15 @@ export default class Burgers extends Component {
             <Button bsSize='large' block>Burger Monger</Button>
           </LinkContainer>
         </div>
+        <Grid>
+          <Row>
+            <LinkContainer to='/restaurant/five-guys'>
+              <Col xs={6} md={4}>
+                <Button bsSize='large'>Five Guys</Button>
+              </Col>
+            </LinkContainer>
+          </Row>
+        </Grid>
       </main>
     </div>
   }

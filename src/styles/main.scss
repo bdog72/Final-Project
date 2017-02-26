@@ -28,11 +28,31 @@
 .home1 {
   text-align: center;
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .heads1 {
   text-align: center;
   font-size: 40px;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.carousel img {
+  margin: auto;
+  max-height: 300px;
+  min-height: 270px;
+}
+
+.carousel h3 {
+  font-size: 65px;
+}
+
+.everyE {
+  text-align: center;
+  margin: auto;
 }
 
 .restaurant {

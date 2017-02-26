@@ -6,6 +6,13 @@
     "websiteURL": "http://www.burgermonger.com",
     "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/R9HhGPqz19SiyEFroxKChQ/o.jpg"
   },
+  "five-guys": {
+    "name": "Five Guys",
+    "mapPlaceId": "ChIJKVWStHrkwogRJcttl5-kksI",
+    "description": "Fast-food chain with made-to-order burgers, fries & hot dogs, plus free peanuts while you wait. ",
+    "websiteURL": "http://gofiveguys.com/menu/pinellas-park/",
+    "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ru3Lgm29VBYJYT62kUvYyg/o.jpg"
+  },
   "bjs-brewhouse": {
     "name": "BJ's Brewhouse",
     "mapPlaceId": "ChIJbUxInWTkwogRcuSCE9UwJls",
@@ -75,6 +82,13 @@
     "description": "New Pizza Joint, small inside, mainly for takeout, tasty though",
     "websiteURL": "http://www.28gramspizza.com",
     "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Bc9KaSwwcmMOcPzYXbXuFg/o.jpg"
+  },
+  "pizza-box": {
+    "name": "Pizza Box",
+    "mapPlaceId": "ChIJLbzOu4DhwogRFJwwF9ZBvOQ",
+    "description": "New Pizza, good reviews",
+    "websiteURL": "",
+    "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/sHgGGoG_Q_94WJ_fGKwByg/o.jpg"
   },
   "casual-clam": {
     "name": "Casual Clam",

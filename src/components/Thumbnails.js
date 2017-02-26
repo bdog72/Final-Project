@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col, Thumbnail } from 'react-bootstrap'
+import { Button, Grid, Row, Col, Thumbnail } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 export default class Thumbnails extends Component {
@@ -35,11 +35,13 @@ export default class Thumbnails extends Component {
               </Thumbnail>
             </LinkContainer>
           </Col>
+        </Row>
+        <Row>
           <Col xs={6} md={3}>
             <LinkContainer to='/EverythingElse'>
-              <Thumbnail className='thumbpics1'>
+              <Button className='thumbpics1'>
                 <p>Everything Else</p>
-              </Thumbnail>
+              </Button>
             </LinkContainer>
           </Col>
         </Row>
