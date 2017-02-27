@@ -103,12 +103,5 @@
     "description": "Contemporary grill chain offering a seafood-centric menu, plus steaks & cocktails.",
     "websiteURL": "https://www.bonefishgrill.com/",
     "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/v0ZpGHvLElho0-dwjxojag/o.jpg"
-  },
-  "luckie-bs": {
-    "name": "Luckie B's",
-    "mapPlaceId": "ChIJCae4FlDhwogRLhl8i1cGS9c",
-    "description": "A versatile menu of BBQ, wood-grilled steaks, burgers, & seafood in casual, sports-centric digs. ",
-    "websiteURL": "http://www.luckiebs.com/",
-    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/EuajunNeF4Bn_wb_WX4JcQ/o.jpg"
   }
 }

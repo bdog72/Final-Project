@@ -10,7 +10,7 @@ export default class Layout extends Component {
     return <div>
       <LinkContainer to='/'>
         <PageHeader className='head'>
-          <h1>Food-Dot-Com</h1>
+          <h2>Food-Dot-Com</h2>
         </PageHeader>
       </LinkContainer>
       <main>
