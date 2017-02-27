@@ -10,7 +10,7 @@ export default class Wings extends Component {
       <h1 className='heads1'>Wings and BBQ</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <LinkContainer to='/restaurant/luckie-bs'>
+          <LinkContainer to='/wings1/luckie-bs'>
             <Button bsSize='large' block>Luckie B's</Button>
           </LinkContainer>
         </div>

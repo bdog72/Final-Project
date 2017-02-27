@@ -1,11 +1,9 @@
 {
-  "Seafood": {
-    "casual-clam": {
-      "name": "Casual Clam",
-      "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo",
-      "description": "Low-key seafood joint offering classic fish 'n' chips & lobster rolls, plus pastas & plate dinners.",
-      "websiteURL": "http://www.casualclam.com/",
-      "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg"
-    }
+  "luckie-bs": {
+    "name": "Luckie B's",
+    "mapPlaceId": "ChIJCae4FlDhwogRLhl8i1cGS9c",
+    "description": "A versatile menu of BBQ, wood-grilled steaks, burgers, & seafood in casual, sports-centric digs. ",
+    "websiteURL": "http://www.luckiebs.com/",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/EuajunNeF4Bn_wb_WX4JcQ/o.jpg"
   }
 }
