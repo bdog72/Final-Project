@@ -10,22 +10,22 @@ export default class Pizza extends Component {
       <h1 className='heads1'>Pizza</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <LinkContainer to='/restaurant/little-italy'>
+          <LinkContainer to='/pizza1/little-italy'>
             <Button bsSize='large' block>Little Italy</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/italia-mia'>
+          <LinkContainer to='/pizza1/italia-mia'>
             <Button bsSize='large' block>Italia Mia</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/paisanos'>
+          <LinkContainer to='/pizza1/paisanos'>
             <Button bsSize='large' block>Paisanos</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/28-grams'>
+          <LinkContainer to='/pizza1/28-grams'>
             <Button bsSize='large' block>28 Grams</Button>
           </LinkContainer>
         </div>
         <Grid>
           <Row>
-            <LinkContainer to='/restaurant/pizza-box'>
+            <LinkContainer to='/pizza1/pizza-box'>
               <Col xs={6} md={4}>
                 <Button bsSize='large'>Pizza Box</Button>
               </Col>
