@@ -55,6 +55,14 @@ export default class Practice extends Component {
               </Carousel.Caption>
             </Carousel.Item>
           </LinkContainer>
+          <LinkContainer to='/Wings'>
+            <Carousel.Item>
+              <img width={500} height={300} src='http://www.nationalchickenwingday.com//wp-content/gallery/main/06.jpg' />
+              <Carousel.Caption>
+                <h3>Wings</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </LinkContainer>
         </Carousel>
       </main>
     </div>
