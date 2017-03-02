@@ -10,10 +10,10 @@ export default class Seafood extends Component {
       <h1 className='heads1'>Seafood</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <LinkContainer to='/restaurant/casual-clam'>
+          <LinkContainer to='/seafood1/casual-clam'>
             <Button bsSize='large' block>Casual Clam</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/bonefish-grill'>
+          <LinkContainer to='/seafood1/bonefish-grill'>
             <Button bsSize='large' block>BoneFish Grill</Button>
           </LinkContainer>
         </div>

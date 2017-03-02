@@ -9,13 +9,13 @@ export default class Burgers extends Component {
       <h1 className='heads1'>Burgers</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <LinkContainer to='/restaurant/burger-monger'>
+          <LinkContainer to='/burgers1/burger-monger'>
             <Button bsSize='large' block>Burger Monger</Button>
           </LinkContainer>
         </div>
         <Grid>
           <Row>
-            <LinkContainer to='/restaurant/five-guys'>
+            <LinkContainer to='/burgers1/five-guys'>
               <Col xs={6} md={4}>
                 <Button bsSize='large'>Five Guys</Button>
               </Col>

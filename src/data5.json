@@ -1,0 +1,16 @@
+{
+"casual-clam": {
+  "name": "Casual Clam",
+  "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo",
+  "description": "Low-key seafood joint offering classic fish 'n' chips & lobster rolls, plus pastas & plate dinners.",
+  "websiteURL": "http://www.casualclam.com/",
+  "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg"
+},
+"bonefish-grill": {
+  "name": "BoneFish Grill",
+  "mapPlaceId": "ChIJ3_Peda3mwogRmjGC1QLSpls",
+  "description": "Contemporary grill chain offering a seafood-centric menu, plus steaks & cocktails.",
+  "websiteURL": "https://www.bonefishgrill.com/",
+  "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/v0ZpGHvLElho0-dwjxojag/o.jpg"
+  }
+}

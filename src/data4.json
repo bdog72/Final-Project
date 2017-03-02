@@ -1,0 +1,16 @@
+{
+"burger-monger": {
+  "name": "Burger Monger",
+  "mapPlaceId": "ChIJXYDQm3rhwogRqfXTLg-UfjM",
+  "description": "Local counter-serve chain featuring burgers, fries & malts, plus beer & wine, in a casual space.",
+  "websiteURL": "http://www.burgermonger.com",
+  "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/R9HhGPqz19SiyEFroxKChQ/o.jpg"
+},
+"five-guys": {
+  "name": "Five Guys",
+  "mapPlaceId": "ChIJKVWStHrkwogRJcttl5-kksI",
+  "description": "Fast-food chain with made-to-order burgers, fries & hot dogs, plus free peanuts while you wait. ",
+  "websiteURL": "http://gofiveguys.com/menu/pinellas-park/",
+  "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ru3Lgm29VBYJYT62kUvYyg/o.jpg"
+  }
+}

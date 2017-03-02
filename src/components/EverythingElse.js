@@ -11,24 +11,24 @@ export default class EverythingElse extends Component {
       <h1 className='heads1'>Everything Else</h1>
       <main>
         <div className='well' style={wellStyles}>
-          <LinkContainer to='/restaurant/bjs-brewhouse'>
+          <LinkContainer to='/everythingElse1/bjs-brewhouse'>
             <Button bsSize='large' block>Bj's Brewhouse</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/pollo-tropical'>
+          <LinkContainer to='/everythingElse1/pollo-tropical'>
             <Button bsSize='large' block>Pollo Tropical</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/glory-days'>
+          <LinkContainer to='/everythingElse1/glory-days'>
             <Button bsSize='large' block>Glory Days</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/cheddars'>
+          <LinkContainer to='/everythingElse1/cheddars'>
             <Button bsSize='large' block>Cheddars</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/pei-wei'>
+          <LinkContainer to='/everythingElse1/pei-wei'>
             <Button bsSize='large' block>Pei Wei</Button>
           </LinkContainer>
-          <LinkContainer to='/restaurant/ale-house'>
+          {/* <LinkContainer to='/everythingElse1/ale-house'>
             <Button bsSize='large' block>Ale House</Button>
-          </LinkContainer>
+          </LinkContainer> */}
         </div>
 
       </main>

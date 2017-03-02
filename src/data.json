@@ -1,18 +1,4 @@
 {
-  "burger-monger": {
-    "name": "Burger Monger",
-    "mapPlaceId": "ChIJXYDQm3rhwogRqfXTLg-UfjM",
-    "description": "Local counter-serve chain featuring burgers, fries & malts, plus beer & wine, in a casual space.",
-    "websiteURL": "http://www.burgermonger.com",
-    "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/R9HhGPqz19SiyEFroxKChQ/o.jpg"
-  },
-  "five-guys": {
-    "name": "Five Guys",
-    "mapPlaceId": "ChIJKVWStHrkwogRJcttl5-kksI",
-    "description": "Fast-food chain with made-to-order burgers, fries & hot dogs, plus free peanuts while you wait. ",
-    "websiteURL": "http://gofiveguys.com/menu/pinellas-park/",
-    "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ru3Lgm29VBYJYT62kUvYyg/o.jpg"
-  },
   "bjs-brewhouse": {
     "name": "BJ's Brewhouse",
     "mapPlaceId": "ChIJbUxInWTkwogRcuSCE9UwJls",
@@ -47,19 +33,5 @@
     "description": "Counter-serve Pan-Asian chain for health-conscious noodle & rice dishes & more.",
     "websiteURL": "https://www.peiwei.com",
     "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/VjMOyUdOpqQd2A3H4Qhksg/o.jpg"
-  },
-  "casual-clam": {
-    "name": "Casual Clam",
-    "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo",
-    "description": "Low-key seafood joint offering classic fish 'n' chips & lobster rolls, plus pastas & plate dinners.",
-    "websiteURL": "http://www.casualclam.com/",
-    "imageURL": "http://baileycatering.com/wp-content/uploads/2015/09/casual-clam-3.jpg"
-  },
-  "bonefish-grill": {
-    "name": "BoneFish Grill",
-    "mapPlaceId": "ChIJ3_Peda3mwogRmjGC1QLSpls",
-    "description": "Contemporary grill chain offering a seafood-centric menu, plus steaks & cocktails.",
-    "websiteURL": "https://www.bonefishgrill.com/",
-    "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/v0ZpGHvLElho0-dwjxojag/o.jpg"
   }
 }
