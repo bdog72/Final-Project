@@ -23,6 +23,14 @@ export default class Practice extends Component {
           </Grid>
         </Jumbotron> */}
         <Carousel bsClass='carousel'>
+          <LinkContainer to='/Bbq'>
+            <Carousel.Item>
+              <img width={500} height={300} src='http://ironworksbbq.com/wp-content/uploads/2014/11/BBQ-Express.jpg' />
+              <Carousel.Caption>
+                <h3>BBQ</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </LinkContainer>
           <LinkContainer to='/Burgers'>
             <Carousel.Item>
               <img width={500} height={300} src='http://www.cheeseandburger.com/images/html5/home-burger.png' />
@@ -44,14 +52,6 @@ export default class Practice extends Component {
               <img width={500} height={300} src='http://mississippiseafoodtrail.com/img/dinner-plate.png' />
               <Carousel.Caption>
                 <h3>SEAFOOD</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </LinkContainer>
-          <LinkContainer to='/Wings'>
-            <Carousel.Item>
-              <img width={500} height={300} src='http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/12/20/0/FNM_010113-Chinese-Barbecue-Wings-Recipe_s4x3.jpg.rend.sniipadlarge.jpeg' />
-              <Carousel.Caption>
-                <h3>WINGS</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </LinkContainer>
