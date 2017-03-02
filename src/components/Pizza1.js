@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
-import data2 from '../data2.json'
+import datapizza from '../datapizza.json'
 
 const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
 
@@ -19,7 +19,7 @@ export default class Restaurant extends Component {
   }
 
   componentDidMount () {
-    this.setState(data2[this.props.params.slug])
+    this.setState(datapizza[this.props.params.slug])
   }
 
   render () {

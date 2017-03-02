@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
-import data5 from '../data5.json'
+import dataseafood from '../dataseafood.json'
 
 const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
 
@@ -19,7 +19,7 @@ export default class Seafood1 extends Component {
   }
 
   componentDidMount () {
-    this.setState(data5[this.props.params.slug])
+    this.setState(dataseafood[this.props.params.slug])
   }
 
   render () {

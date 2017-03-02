@@ -27,7 +27,6 @@ export default class EverythingElse extends Component {
             <Button bsSize='large' block>Pei Wei</Button>
           </LinkContainer>
         </div>
-
       </main>
     </div>
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
-import data4 from '../data4.json'
+import databurgers from '../databurgers.json'
 
 const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
 
@@ -19,7 +19,7 @@ export default class Burgers1 extends Component {
   }
 
   componentDidMount () {
-    this.setState(data4[this.props.params.slug])
+    this.setState(databurgers[this.props.params.slug])
   }
 
   render () {

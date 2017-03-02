@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
-import data from '../data.json'
+import dataeverythingelse from '../dataeverythingelse.json'
 
 const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
 
@@ -19,7 +19,7 @@ export default class EverythingElse1 extends Component {
   }
 
   componentDidMount () {
-    this.setState(data[this.props.params.slug])
+    this.setState(dataeverythingelse[this.props.params.slug])
   }
 
   render () {
