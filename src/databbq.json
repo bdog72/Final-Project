@@ -5,5 +5,12 @@
     "description": "A versatile menu of BBQ, wood-grilled steaks, burgers, & seafood in casual, sports-centric digs. ",
     "websiteURL": "http://www.luckiebs.com/",
     "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/EuajunNeF4Bn_wb_WX4JcQ/o.jpg"
+  },
+  "jimbos": {
+    "name": "Jimbos Pit BBQ",
+    "mapPlaceId": "ChIJ-QTwvgTDwogRfJ8uNS696aQ",
+    "description": "This cozy barbecue joint dishes up chicken, ribs & other familiar fare in an easygoing environment",
+    "websiteURL": "http://www.jimbosbarbq.com/",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/0NH7Inxgr1XFoKKWUEosvg/o.jpg"
   }
 }

@@ -13,6 +13,9 @@ export default class Bbq extends Component {
           <LinkContainer to='/bbq1/luckie-bs'>
             <Button bsSize='large' block>Luckie B's</Button>
           </LinkContainer>
+          <LinkContainer to='/bbq1/jimbos'>
+            <Button bsSize='large' block>Jimbos Pit BBQ</Button>
+          </LinkContainer>
         </div>
       </main>
     </div>
