@@ -33,5 +33,12 @@
     "description": "Counter-serve Pan-Asian chain for health-conscious noodle & rice dishes & more.",
     "websiteURL": "https://www.peiwei.com",
     "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/VjMOyUdOpqQd2A3H4Qhksg/o.jpg"
+  },
+  "hooks": {
+    "name": "Hooks Sushi",
+    "mapPlaceId": "ChIJG91vmKLmwogRNAcWtNj3mEU",
+    "description": "Yummy Sushi, good Lunch Special",
+    "websiteURL": "http://www.hookssushi.com/",
+    "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/uMOg8IQKLicyLf85YxglOg/o.jpg"
   }
 }
