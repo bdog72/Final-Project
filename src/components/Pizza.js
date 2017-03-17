@@ -22,8 +22,11 @@ export default class Pizza extends Component {
           <LinkContainer to='/pizza1/28-grams'>
             <Button bsSize='large' block>28 Grams</Button>
           </LinkContainer>
+          <LinkContainer to='/pizza1/pizza-box'>
+            <Button bsSize='large' block>Pizza Box</Button>
+          </LinkContainer>
         </div>
-        <Grid>
+        {/* <Grid>
           <Row>
             <LinkContainer to='/pizza1/pizza-box'>
               <Col xs={6} md={4}>
@@ -31,7 +34,7 @@ export default class Pizza extends Component {
               </Col>
             </LinkContainer>
           </Row>
-        </Grid>
+        </Grid> */}
       </main>
     </div>
   }

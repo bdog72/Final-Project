@@ -18,11 +18,29 @@ export default class Burgers extends Component {
         </div>
         <Grid>
           <Row>
-            <LinkContainer to='/burgers1/five-guys'>
-              <Col xs={6} md={4}>
+            <Col>
+              <LinkContainer to='/burgers1/five-guys'>
                 <Button bsSize='large'>Five Guys</Button>
-              </Col>
-            </LinkContainer>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+              <LinkContainer to='/burgers1/five-guys'>
+                <Button bsSize='large'>Five Guys</Button>
+              </LinkContainer>
+            </Col>
           </Row>
         </Grid>
       </main>
