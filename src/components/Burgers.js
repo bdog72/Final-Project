@@ -16,7 +16,7 @@ export default class Burgers extends Component {
             <Button bsSize='large' block>Pete and Shorty's</Button>
           </LinkContainer>
         </div>
-        <Grid>
+        {/* <Grid>
           <Row>
             <Col>
               <LinkContainer to='/burgers1/five-guys'>
@@ -42,7 +42,7 @@ export default class Burgers extends Component {
               </LinkContainer>
             </Col>
           </Row>
-        </Grid>
+        </Grid> */}
       </main>
     </div>
   }
