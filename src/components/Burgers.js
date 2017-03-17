@@ -12,6 +12,9 @@ export default class Burgers extends Component {
           <LinkContainer to='/burgers1/burger-monger'>
             <Button bsSize='large' block>Burger Monger</Button>
           </LinkContainer>
+          <LinkContainer to='/burgers1/pete and shortys'>
+            <Button bsSize='large' block>Pete and Shorty's</Button>
+          </LinkContainer>
         </div>
         <Grid>
           <Row>

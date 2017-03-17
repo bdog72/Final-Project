@@ -12,5 +12,12 @@
   "description": "Fast-food chain with made-to-order burgers, fries & hot dogs, plus free peanuts while you wait. ",
   "websiteURL": "http://gofiveguys.com/menu/pinellas-park/",
   "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ru3Lgm29VBYJYT62kUvYyg/o.jpg"
+},
+  "pete and shortys": {
+    "name": "Pete & Shorty's",
+    "mapPlaceId": "ChIJ6Xy1pY_kwogRADY4C9Uy1NE",
+    "description": "Good Burgers",
+    "websiteURL": "http://www.peteandshortys.com/",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/HucJnnrbsonLbW8lOO4Q4g/o.jpg"
   }
 }
