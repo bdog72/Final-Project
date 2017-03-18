@@ -32,6 +32,9 @@ export default class EverythingElse extends Component {
           <LinkContainer to='/everythingElse1/tijuana flats'>
             <Button bsSize='large' block>Tijuana Flats</Button>
           </LinkContainer>
+          <LinkContainer to='/everythingElse1/pdq'>
+            <Button bsSize='large' block>PDQ</Button>
+          </LinkContainer>
         </div>
       </main>
     </div>

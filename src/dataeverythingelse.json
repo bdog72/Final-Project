@@ -47,5 +47,12 @@
     "description": "itschy Mexican chain restaurant known for an extensive hot sauce bar & colorful, muraled walls.",
     "websiteURL": "https://tijuanaflats.com/stores/roosevelt",
     "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/k8VbKVtyo7TtJolbrRLG9g/o.jpg"
+  },
+  "pdq": {
+    "name": "PDQ",
+    "mapPlaceId": "ChIJQ_cmS1DhwogR_8IULfCV8LA",
+    "description": "Chicken sandwiches",
+    "websiteURL": "https://www.eatpdq.com/",
+    "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/AZWYYpaNe3btxLRfT_buTQ/o.jpg"
   }
 }
