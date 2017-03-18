@@ -40,5 +40,12 @@
     "description": "Yummy Sushi, good Lunch Special",
     "websiteURL": "http://www.hookssushi.com/",
     "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/uMOg8IQKLicyLf85YxglOg/o.jpg"
+  },
+  "tijuana flats": {
+    "name": "Tijuana flats",
+    "mapPlaceId": "ChIJ9aDh04bmwogR3RTzIqRzj58",
+    "description": "itschy Mexican chain restaurant known for an extensive hot sauce bar & colorful, muraled walls.",
+    "websiteURL": "https://tijuanaflats.com/stores/roosevelt",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/k8VbKVtyo7TtJolbrRLG9g/o.jpg"
   }
 }
