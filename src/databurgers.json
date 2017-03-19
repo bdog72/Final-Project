@@ -19,5 +19,12 @@
     "description": "Good Burgers",
     "websiteURL": "http://www.peteandshortys.com/",
     "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/HucJnnrbsonLbW8lOO4Q4g/o.jpg"
+  },
+  "biff-burger": {
+    "name": "Biff Burger",
+    "mapPlaceId": "ChIJIZ3QK3LjwogRouctZlmYg_c",
+    "description": "Roadside spot serving hamburgers & other American grub in old-time digs with a drive-thru & bar.",
+    "websiteURL": "http://biffburgers.com/",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/8KnyoUBywXdSQsP8D8YdBg/o.jpg"
   }
 }
