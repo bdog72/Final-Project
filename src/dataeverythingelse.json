@@ -54,5 +54,12 @@
     "description": "Chicken sandwiches",
     "websiteURL": "https://www.eatpdq.com/",
     "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/AZWYYpaNe3btxLRfT_buTQ/o.jpg"
+  },
+  "codys": {
+    "name": "Cody's",
+    "mapPlaceId": "ChIJx6AIhXzmwogRfsPYCqOAGxE",
+    "description": "Folksy chain serving American comfort food in a roadhouse-themed space decorated with Americana.",
+    "websiteURL": "http://www.codysoriginalroadhouse.com/",
+    "imageURL": "https://s3-media2.fl.yelpcdn.com/bphoto/wh8kkhfRJ-LLvapyV3Kzig/o.jpg"
   }
 }
