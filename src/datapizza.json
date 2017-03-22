@@ -33,5 +33,12 @@
   "description": "New Pizza, good reviews",
   "websiteURL": "",
   "imageURL": "https://s3-media3.fl.yelpcdn.com/bphoto/sHgGGoG_Q_94WJ_fGKwByg/o.jpg"
-  }
+},
+"uncle maddios": {
+  "name": "Uncle Maddio's",
+  "mapPlaceId": "ChIJgQyM9VLhwogRf1XQLCEzdtY",
+  "description": "Customers can build their own pizzas & salads, assembly-line style, at this family-friendly chain.",
+  "websiteURL": "http://www.unclemaddios.com/",
+  "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Fya0LrPuxCeAb8EisD3pZQ/o.jpg"
+}
 }
