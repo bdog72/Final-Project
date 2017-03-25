@@ -40,5 +40,13 @@
   "description": "Customers can build their own pizzas & salads, assembly-line style, at this family-friendly chain.",
   "websiteURL": "http://www.unclemaddios.com/",
   "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Fya0LrPuxCeAb8EisD3pZQ/o.jpg"
+},
+"joey brooklyn": {
+  "name": "Joey Brooklyn's",
+  "mapPlaceId": "ChIJewYW5pzhwogRVwUNT6orFW8",
+  "description": "Pizza & other casual Italian chow comes in a casual, quick-serve setup with late-night hours.",
+  "websiteURL": "http://joeybrooklynsfamouspizzakitchen.com/",
+  "imageURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Ukr5g2SPbkaiadkX2yWXCw/o.jpg"
 }
+
 }

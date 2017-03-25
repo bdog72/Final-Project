@@ -28,6 +28,9 @@ export default class Pizza extends Component {
           <LinkContainer to='/pizza1/uncle maddios'>
             <Button bsSize='large' block>Uncle Maddio's</Button>
           </LinkContainer>
+          <LinkContainer to='/pizza1/joey brooklyn'>
+            <Button bsSize='large' block>Joey Brooklyn's</Button>
+          </LinkContainer>
         </div>
         {/* <Grid>
           <Row>
