@@ -61,5 +61,13 @@
     "description": "Fresh Food, Yummy",
     "websiteURL": "http://www.eatfreshkitchen.com/",
     "imageURL": "https://s3-media4.fl.yelpcdn.com/bphoto/mYQjBYB6Kx9lLykrRYCODQ/o.jpg"
+  },
+  "babalu": {
+    "name": "Babalu",
+    "mapPlaceId": "ChIJgeqgx5rmwogRDN--H9uTovQ",
+    "description": "Utilitarian sports-bar mainstay offering a wide-ranging American menu plus booze in TV-adorned digs.",
+    "websiteURL": "http://www.babalueats.com/",
+    "imageURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Fc_6K6bssLgW-ghT4xrxow/o.jpg"
   }
+
 }
