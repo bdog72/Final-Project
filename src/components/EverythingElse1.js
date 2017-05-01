@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
 import dataeverythingelse from '../dataeverythingelse.json'
 
-const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
+// const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
+const MAPS_API_KEY = 'AIzaSyBaeAOR0-3kc1rxgJhqV7C0GoZUAdKy26c'
 
 export default class EverythingElse1 extends Component {
 

@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
 import datawings from '../datawings.json'
 
-const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
+// const MAPS_API_KEY = 'AIzaSyBNN6aDjQEw9c1eERGOa4FyRM33CUelbK0'
+const MAPS_API_KEY = 'AIzaSyBaeAOR0-3kc1rxgJhqV7C0GoZUAdKy26c'
 
 export default class Restaurant extends Component {
 
